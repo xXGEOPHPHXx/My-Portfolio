@@ -1,0 +1,53 @@
+/* style.css */
+
+/* Navigation Bar Styles */
+.navbar {
+  background-color: #333; /* Background color of the navigation bar */
+  padding: 10px 0; /* Add padding to the top and bottom of the navbar */
+}
+
+.nav-links {
+  list-style-type: none; /* Remove default bullet points from the list */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.nav-links li {
+  display: inline; /* Display list items horizontally */
+  margin-right: 20px; /* Add spacing between navigation links */
+}
+
+.nav-links li:last-child {
+  margin-right: 0; /* Remove margin from the last navigation link */
+}
+
+.nav-links li a {
+  color: #fff; /* Text color of the navigation links */
+  text-decoration: none; /* Remove underline from the links */
+  font-weight: bold; /* Make the text bold */
+}
+
+.nav-links li a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Home Page Styles */
+.home-page {
+  background-image: url('../images/background.jpg'); /* Background image */
+  background-size: cover; /* Cover the entire container with the background image */
+  background-position: center; /* Center the background image */
+  height: 100vh; /* Set the height of the container to 100% of the viewport height */
+  display: flex; /* Use flexbox for centering content vertically */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  text-align: center; /* Center text horizontally */
+  color: #fff; /* Text color */
+}
+
+.home-page h1 {
+  font-size: 3em; /* Increase font size for the name */
+}
+
+.home-page p {
+  font-size: 1.5em; /* Increase font size for the about me section */
+}
