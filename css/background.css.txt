@@ -1,0 +1,12 @@
+/* styles.css */
+body {
+    background-color: #bf7ddb;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #ff0000;
+}
+
+/* Add more styles as needed */
