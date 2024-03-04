@@ -5,16 +5,12 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* styles.css */
-
-/* Reset default margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+h1 {
+    color: #ff0000;
 }
 
-/* Navigation Bar Styles */
+/* Add more styles as needed */
+
 .navbar {
     background-color: #333; /* Background color of the navbar */
     color: #fff; /* Text color */
