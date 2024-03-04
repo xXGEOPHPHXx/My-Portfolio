@@ -35,7 +35,7 @@
 .home-page {
   background-image: url('../images/Background.jpg'); /* Background image */
   background-size: contain; /* Cover the entire container with the background image */
-  background-attachment: fixed; /* or scroll */
+  background-attachment: scroll; /* or scroll */
   background-position: center; /* Center the background image */
   height: 100%; /* Fill the entire viewport height */
   width: 100%; /* Fill the entire viewport width */
