@@ -35,8 +35,10 @@
 .home-page {
   background-image: url('../images/Background.jpg'); /* Background image */
   background-size: contain; /* Cover the entire container with the background image */
+  background-attachment: fixed; /* or scroll */
   background-position: center; /* Center the background image */
-  height: 100vh; /* Set the height of the container to 100% of the viewport height */
+  height: 100%; /* Fill the entire viewport height */
+  width: 100%; /* Fill the entire viewport width */
   display: flex; /* Use flexbox for centering content vertically */
   justify-content: center; /* Center content horizontally */
   align-items: center; /* Center content vertically */
