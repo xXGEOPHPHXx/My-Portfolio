@@ -46,6 +46,12 @@
   color: #fff; /* Text color */
 }
 
+.container {
+    position: relative;
+    width: 100%; /* Set width to 100% to make it fill the entire width of its parent */
+    margin: 0; /* Remove margin */
+    max-width: none; /* Disable maximum width */
+}
 
 .home-page h1 {
   font-size: 3em; /* Increase font size for the name */
