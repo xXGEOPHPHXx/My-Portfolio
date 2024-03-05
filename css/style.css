@@ -11,6 +11,7 @@
 
 .navbar.scrolled {
   background-color: rgba(0, 0, 0, 0.7); /* Transparent background color with opacity */
+  background-attachment: fixed;
 }
 
 
