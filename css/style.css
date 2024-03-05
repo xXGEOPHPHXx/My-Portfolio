@@ -9,7 +9,7 @@
 .nav-links {
   list-style-type: none; /* Remove default bullet points from the list */
   margin: 0; /* Remove default margin */
-  padding: 10; /* Remove default padding */
+  padding: 0; /* Remove default padding */
 }
 
 .nav-links li {
