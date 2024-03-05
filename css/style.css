@@ -8,7 +8,7 @@
 
 .nav-links {
   list-style-type: none; /* Remove default bullet points from the list */
-  margin: 0; /* Remove default margin */
+  margin: 10; /* Remove default margin */
   padding: 0; /* Remove default padding */
 }
 
@@ -67,4 +67,5 @@
   color: #660180; /* Text color */
   margin-top: 10vh; /* 25% */
   font-family: 'Libre Baskerville', serif;
+  text-decoration: bold;
 }
