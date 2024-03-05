@@ -65,6 +65,5 @@
 .home-page h1 {
   font-size: 20em; /* Increase font size for the name */
   color: #660180; /* Text color */
-  margin-top: 0vh; /* 25% */
-  transform: translateY(0%); /* Adjust for vertical centering */
+  margin-top: 10vh; /* 25% */
 }
