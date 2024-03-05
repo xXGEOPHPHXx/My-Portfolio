@@ -87,7 +87,7 @@
   display: flex; /* Use flexbox for centering content vertically */
   justify-content: center; /* Center content horizontally */
   align-items: center; /* Center content vertically */
-  text-align: center; /* Center text horizontally */
+  text-align: left; /* Center text horizontally */
   color: #fff; /* Text color */
   /*maybe background*/
   background-image: url('../images/Background.jpg'); /* Background image */
