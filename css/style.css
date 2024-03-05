@@ -64,7 +64,7 @@
 /* "Michael Dean on home page */
 .home-page h1 {
   font-size: 8em; /* Increase font size for the name */
-  color: #fff; /* Text color */
-  margin-top: 25vh; /* 25% */
+  color: #660180; /* Text color */
+  margin-top: 80vh; /* 25% */
   transform: translateY(-50%); /* Adjust for vertical centering */
 }
