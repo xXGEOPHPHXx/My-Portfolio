@@ -60,3 +60,10 @@
 .home-page p {
   font-size: 1.5em; /* Increase font size for the about me section */
 }
+
+.home-page h1 {
+  font-size: 4em; /* Increase font size for the name */
+  color: #fff; /* Text color */
+  margin-top: 50vh; /* Center vertically */
+  transform: translateY(-50%); /* Adjust for vertical centering */
+}
