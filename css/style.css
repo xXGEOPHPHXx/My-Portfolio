@@ -61,9 +61,10 @@
   font-size: 1.5em; /* Increase font size for the about me section */
 }
 
+/* "Michael Dean on home page */
 .home-page h1 {
-  font-size: 4em; /* Increase font size for the name */
+  font-size: 8em; /* Increase font size for the name */
   color: #fff; /* Text color */
-  margin-top: 50vh; /* Center vertically */
+  margin-top: 25vh; /* 25% */
   transform: translateY(-50%); /* Adjust for vertical centering */
 }
