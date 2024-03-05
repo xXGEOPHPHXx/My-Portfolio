@@ -40,8 +40,8 @@
   height: 100vh; /* Fill the entire viewport height */
   width: 100vw; /* Fill the entire viewport width */
   display: flex; /* Use flexbox for centering content vertically */
-  justify-content: center; /* Center content horizontally */
-  align-items: center; /* Center content vertically */
+  justify-content: flex-start; /* Center content horizontally */
+  align-items: flex-start; /* Center content vertically */
   text-align: center; /* Center text horizontally */
   color: #fff; /* Text color */
 }
