@@ -2,16 +2,14 @@
 
 /* Navigation Bar Styles */
 .navbar {
-  background-color: #000; /* Initial background color */
+  background-color: rgba(0, 0, 0, 1); /* Initial background color (opaque black) */
   padding: 10px 0; /* Add padding to the top and bottom of the navbar */
   width: 100%; /* Full width */
   z-index: 1000; /* Ensures it's above other content */
-  position: fixed; /* Fixed positioning to keep it at the top when scrolling */
-  top: 0; /* Position at the top of the viewport */
   transition: background-color 0.3s ease; /* Smooth transition effect */
 }
 
-.navbar.transparent {
+.navbar.scrolled {
   background-color: rgba(0, 0, 0, 0.7); /* Transparent background color with opacity */
 }
 
