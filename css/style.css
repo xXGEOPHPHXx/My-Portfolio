@@ -9,9 +9,8 @@
   transition: background-color 0.3s ease; /* Smooth transition effect */
 }
 
-.navbar.transparent {
+.navbar:hover {
   background-color: rgba(0, 0, 0, 0.7); /* Transparent background color with opacity */
-  position: fixed; /* Fixed positioning to keep it at the top when scrolling */
 }
 
 }
