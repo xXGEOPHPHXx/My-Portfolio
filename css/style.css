@@ -7,6 +7,7 @@
   width: 100%; /* Full width */
   z-index: 1000; /* Ensures it's above other content */
   transition: background-color 0.3s ease; /* Smooth transition effect */
+  background-attachment: fixed;
 }
 
 .navbar.scrolled {
