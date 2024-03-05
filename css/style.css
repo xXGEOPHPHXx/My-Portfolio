@@ -3,7 +3,7 @@
 /* Navigation Bar Styles */
 .navbar {
   background-color: #000; /* Initial background color */
-  padding: 10px 0; /* Add padding to the top and bottom of the navbar */
+  padding: 0px 0; /* Add padding to the top and bottom of the navbar */
   width: 100%; /* Full width */
   z-index: 1000; /* Ensures it's above other content */
   transition: background-color 0.3s ease; /* Smooth transition effect */
