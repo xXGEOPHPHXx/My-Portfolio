@@ -4,6 +4,12 @@
 .navbar {
   background-color: #333; /* Background color of the navigation bar */
   padding: 10px 0; /* Add padding to the top and bottom of the navbar */
+  /*Transparent Nav vv */
+  background-color: rgba(51, 51, 51, 0.9); /* Initial background color with opacity */
+  position: fixed; /* Fixed positioning to keep it at the top when scrolling */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensures it's above other content */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
 }
 
 .nav-links {
@@ -29,6 +35,15 @@
 
 .nav-links li a:hover {
   text-decoration: underline; /* Add underline on hover */
+}
+
+/* Transparent Nav */
+.navbar {
+  background-color: rgba(51, 51, 51, 0.9); /* Initial background color with opacity */
+  position: fixed; /* Fixed positioning to keep it at the top when scrolling */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensures it's above other content */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
 }
 
 /* Home Page Styles */
