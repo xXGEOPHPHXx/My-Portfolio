@@ -102,4 +102,16 @@
   text-align: center; /* Align text to the center within columns */
 }
 
-.info-section .
+.about-me,
+.info-content {
+  height: 100vh; /* Set the height to 100% of the viewport height */
+}
+
+.about-me {
+  background: #a199a7; /* Set the background color for "About Me" section */
+}
+
+.info-content {
+  background: #a199a7; /* Set the background color for the info content section */
+}
+
