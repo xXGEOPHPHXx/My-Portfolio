@@ -96,3 +96,7 @@
   height: 100vh; /* Fill the entire viewport height */
   width: 100vw; /* Fill the entire viewport width */
 }
+
+.info-section .columns {
+  text-align: left; /* Align text to the left within columns */
+}
