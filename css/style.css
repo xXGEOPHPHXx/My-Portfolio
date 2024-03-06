@@ -104,6 +104,7 @@
 
 .background-left, .background-right {
   background-color: #a199a7;
+  min-height: 100%; /* Adjusted to use min-height */
 }
 
 .background-left {
@@ -111,5 +112,5 @@
 }
 
 .background-right {
-  flex: 1; /* Take up twice as much space as background-left */
+  flex: 2; /* Take up twice as much space as background-left */
 }
