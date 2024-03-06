@@ -92,13 +92,13 @@
   background-size: cover; /* Cover the entire container with the background image */
   background-attachment: fixed; /* Keep the background image fixed */
   background-position: center; /* Center the background image */
-  text-shadow: -5px 2px 3px #000
   height: 100vh; /* Fill the entire viewport height */
   width: 100vw; /* Fill the entire viewport width */
 }
 
 .about-me, .info-content {
   position: relative;
+  text-shadow: -5px 2px 3px #000
   overflow: hidden;
 }
 
