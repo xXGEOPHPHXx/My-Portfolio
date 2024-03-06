@@ -115,3 +115,15 @@
   background: #a199a7; /* Set the background color for the info content section */
 }
 
+/* Background Rectangles */
+.background-left {
+  background-color: #a199a7; /* Gray color for the left rectangle */
+  height: 100%; /* Match the height of the parent container */
+  width: 33%; /* Adjust the width as needed */
+}
+
+.background-right {
+  background-color: #a199a7; /* Gray color for the right rectangle */
+  height: 100%; /* Match the height of the parent container */
+  width: 66%; /* Adjust the width as needed */
+}
