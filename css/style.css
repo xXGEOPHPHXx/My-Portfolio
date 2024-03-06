@@ -95,10 +95,10 @@
   background-position: center; /* Center the background image */
   height: 100vh; /* Fill the entire viewport height */
   width: 100vw; /* Fill the entire viewport width */
-  margin-top: 2rem; /*text box margin*/
-  margin-bottom: 2rem /*text box margin*/
+  margin-top: 2rem; /* Add margin to the top */
+  margin-bottom: 2rem; /* Add margin to the bottom */
 }
 
 .info-section .columns {
-  text-align: center; /* Align text to the left within columns */
+  text-align: center; /* Align text to the center within columns */
 }
