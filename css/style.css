@@ -56,23 +56,23 @@
 }
 
 .container {
-  position: relative;
+  position: flex;
   width: 100%; /* Set width to 100% to make it fill the entire width of its parent */
   margin: 0; /* Remove margin */
   max-width: none; /* Disable maximum width */
 }
 
 .home-page h1 {
-  font-size: 3em; /* Increase font size for the name */
+  font-size: 3rem; /* Increase font size for the name */
 }
 
 .home-page p {
-  font-size: 1.5em; /* Increase font size for the about me section */
+  font-size: 1.5rem; /* Increase font size for the about me section */
 }
 
 /* "Michael Dean on home page */
 .home-page h1 {
-  font-size: 16em; /* Increase font size for the name */
+  font-size: 16rem; /* Increase font size for the name */
   display: flex;
   color: #a199a7; /* Text color */
   margin-top: 10vh; /* 25% */
