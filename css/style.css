@@ -98,24 +98,18 @@
   width: 100vw; /* Fill the entire viewport width */
 }
 
-.info-section .columns {
-  text-align: center; /* Align text to the center within columns */
+.info-section {
+  display: flex;
 }
 
-.about-me,
-.info-content {
-  height: 21vh; /* Set the height to 100% of the viewport height */
+.background-left, .background-right {
+  background-color: #a199a7;
 }
 
-/* Background Rectangles */
 .background-left {
-  background-color: #a199a7; /* Gray color for the left rectangle */
-  height: 100%; /* Match the height of the parent container */
-  width: 33%; /* Adjust the width as needed */
+  flex: 1; /* Take up available space */
 }
 
 .background-right {
-  background-color: #a199a7; /* Gray color for the right rectangle */
-  height: 100%; /* Match the height of the parent container */
-  width: 66%; /* Adjust the width as needed */
+  flex: 2; /* Take up twice as much space as background-left */
 }
