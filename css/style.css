@@ -85,7 +85,7 @@
 /* Info Page */
 .info-section {
   display: flex; /* Use flexbox for centering content */
-  justify-content: center; /* Center content horizontally */
+  justify-content: flex-start; /* Center content horizontally */
   align-items: center; /* Center content vertically */
   text-align: left; /* Align text to the left */
   color: #fff; /* Text color */
