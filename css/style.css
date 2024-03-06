@@ -107,14 +107,6 @@
   height: 21vh; /* Set the height to 100% of the viewport height */
 }
 
-.about-me {
-  background: #a199a7; /* Set the background color for "About Me" section */
-}
-
-.info-content {
-  background: #a199a7; /* Set the background color for the info content section */
-}
-
 /* Background Rectangles */
 .background-left {
   background-color: #a199a7; /* Gray color for the left rectangle */
