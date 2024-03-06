@@ -103,7 +103,7 @@
 }
 
 .background-left, .background-right {
-  background-color: #a199a7;
+  color: #a199a7;
   min-height: 100%; /* Adjusted to use min-height */
 }
 
