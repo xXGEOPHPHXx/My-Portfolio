@@ -111,5 +111,5 @@
 }
 
 .background-right {
-  flex: 2; /* Take up twice as much space as background-left */
+  flex: 1; /* Take up twice as much space as background-left */
 }
