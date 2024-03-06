@@ -95,6 +95,8 @@
   background-position: center; /* Center the background image */
   height: 100vh; /* Fill the entire viewport height */
   width: 100vw; /* Fill the entire viewport width */
+  margin-top: 2rem; /*text box margin*/
+  margin-bottom: 2rem /*text box margin*/
 }
 
 .info-section .columns {
