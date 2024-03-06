@@ -84,15 +84,14 @@
 }
 /* Info Page */
 .info-section {
-  display: flex; /* Use flexbox for centering content vertically */
+  display: flex; /* Use flexbox for centering content */
   justify-content: center; /* Center content horizontally */
   align-items: center; /* Center content vertically */
-  text-align: left; /* Center text horizontally */
+  text-align: left; /* Align text to the left */
   color: #fff; /* Text color */
-  /*maybe background*/
   background-image: url('../images/Background.jpg'); /* Background image */
   background-size: cover; /* Cover the entire container with the background image */
-  background-attachment: fixed; /* or scroll */
+  background-attachment: fixed; /* Keep the background image fixed */
   background-position: center; /* Center the background image */
   height: 100vh; /* Fill the entire viewport height */
   width: 100vw; /* Fill the entire viewport width */
