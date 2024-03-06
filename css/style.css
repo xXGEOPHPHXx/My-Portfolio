@@ -15,9 +15,6 @@
   position: fixed;
 }
 
-
-}
-
 .nav-links {
   list-style-type: none; /* Remove default bullet points from the list */
   margin: 0; /* Remove default margin */
@@ -43,7 +40,6 @@
   text-decoration: underline; /* Add underline on hover */
 }
 
-
 /* Home Page Styles */
 .home-page {
   background-image: url('../images/Background.jpg'); /* Background image */
@@ -60,10 +56,10 @@
 }
 
 .container {
-    position: relative;
-    width: 100%; /* Set width to 100% to make it fill the entire width of its parent */
-    margin: 0; /* Remove margin */
-    max-width: none; /* Disable maximum width */
+  position: relative;
+  width: 100%; /* Set width to 100% to make it fill the entire width of its parent */
+  margin: 0; /* Remove margin */
+  max-width: none; /* Disable maximum width */
 }
 
 .home-page h1 {
@@ -83,6 +79,7 @@
   text-decoration: bold;
   text-shadow: 20px 20px 40px #000;
 }
+
 /* Info Page */
 .info-section {
   display: flex; /* Use flexbox for centering content */
@@ -98,19 +95,25 @@
   width: 100vw; /* Fill the entire viewport width */
 }
 
-.info-section {
-  display: flex;
+.about-me, .info-content {
+  position: relative;
+  overflow: hidden;
 }
 
 .background-left, .background-right {
-  color: #a199a7;
-  min-height: 100%; /* Adjusted to use min-height */
+  background-color: #a199a7; /* Set the background color */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 .background-left {
-  flex: 1; /* Take up available space */
+  left: 0;
+  right: 50%; /* Adjusted to cover only the left half */
 }
 
 .background-right {
-  flex: 2; /* Take up twice as much space as background-left */
+  left: 50%; /* Adjusted to cover only the right half */
+  right: 0;
 }
