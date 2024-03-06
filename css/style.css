@@ -95,27 +95,11 @@
   height: 100vh; /* Fill the entire viewport height */
   width: 100vw; /* Fill the entire viewport width */
 }
-
-.about-me, .info-content {
-  position: relative;
-  text-shadow: -5px 2px 3px #000
-  overflow: hidden;
+.about-me h1 {
+  text-shadow: -5px 2px 3px #000; /* Adjust values as needed */
 }
 
-.background-left, .background-right {
-  background-color: #a199a7; /* Set the background color */
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
+.info-content h2 {
+  text-shadow: -5px 2px 3px #000; /* Adjust values as needed */
 }
 
-.background-left {
-  left: 0;
-  right: 50%; /* Adjusted to cover only the left half */
-}
-
-.background-right {
-  left: 50%; /* Adjusted to cover only the right half */
-  right: 0;
-}
