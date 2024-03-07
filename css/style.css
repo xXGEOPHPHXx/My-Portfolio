@@ -74,7 +74,7 @@ body::before {
   width: 100%; /* Set width to 100% to make it fill the entire width of its parent */
   margin: 0; /* Remove margin */
   max-width: none; /* Disable maximum width */
-  z-index: 1;
+  z-index: -2;
 }
 
 .home-page h1 {
@@ -110,13 +110,15 @@ body::before {
   background-position: center; /* Center the background image */
   height: 100vh; /* Fill the entire viewport height */
   width: 100vw; /* Fill the entire viewport width */
-  z-index: 1;
+  z-index: -1;
 }
 .about-me h1 {
   text-shadow: -5px 2px 3px #000; /* Adjust values as needed */
+  z-index: -2;
 }
 
 .info-content h2 {
   text-shadow: -5px 2px 3px #000; /* Adjust values as needed */
+  z-index: -2;
 }
 
