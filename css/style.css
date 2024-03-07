@@ -108,3 +108,14 @@ body::before {
 .info-content {
   z-index: 1;
 }
+
+.about-me {
+  background-color: #a199a7; /* Add your desired background color */
+  padding: 20px; /* Add padding to create space between the text and the background */
+}
+
+.info-content {
+  background-color: #a199a7; /* Add your desired background color */
+  padding: 20px; /* Add padding to create space between the text and the background */
+}
+
