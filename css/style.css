@@ -112,10 +112,12 @@ body::before {
 .about-me {
   background-color: #a199a7; /* Add your desired background color */
   padding: 20px; /* Add padding to create space between the text and the background */
+  opacity: 0.5;
 }
 
 .info-content {
   background-color: #a199a7; /* Add your desired background color */
   padding: 20px; /* Add padding to create space between the text and the background */
+  opacity: 0.5;
 }
 
