@@ -106,6 +106,5 @@ body::before {
 
 .about-me,
 .info-content {
-  position: relative; /* Added */
   z-index: 1;
 }
