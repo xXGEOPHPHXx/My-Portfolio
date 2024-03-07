@@ -126,4 +126,5 @@ body::before {
   background-attachment: fixed; /* Keep the background image fixed */
   background-position: center; /* Center the background image */
   padding: 20px; /* Add padding to create space between the form and the background */
+  z-index: 2;
 }
