@@ -110,30 +110,31 @@ body {
   z-index: 2;
 }
 
-.about-me h1,
-.info-content h2 {
-  text-shadow: -5px 2px 3px #000;
-}
-
-.info-content h2 {
-  text-shadow: -5px 2px 3px #000;
-  font-size: 6vw
-}
-
-
-.about-me,
+/* Reduce width of .info-content to occupy a smaller portion of the viewport width */
 .info-content {
-  z-index: 2;
+  width: 80vw; /* Adjust width as needed */
 }
 
+/* Adjust margins and paddings for .about-me and .info-content */
 .about-me {
   background-color: #a199a7; /* Add your desired background color */
   padding: 20px; /* Add padding to create space between the text and the background */
+  margin-bottom: 20px; /* Add margin to create space between .about-me and .info-content */
 }
 
 .info-content {
   background-color: #a199a7; /* Add your desired background color */
   padding: 20px; /* Add padding to create space between the text and the background */
+}
+
+/* Optionally adjust the font size of headings for better readability on desktop */
+.about-me h1 {
+  font-size: 3rem; /* Adjust font size as needed */
+}
+
+.info-content h2 {
+  text-shadow: -5px 2px 3px #000;
+  font-size: 2rem; /* Adjust font size as needed */
 }
 
 /* Contact Page*/
