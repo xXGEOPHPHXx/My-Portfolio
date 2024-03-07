@@ -115,6 +115,12 @@ body {
   text-shadow: -5px 2px 3px #000;
 }
 
+.info-content h2 {
+  text-shadow: -5px 2px 3px #000;
+  font-size: 3vw
+}
+
+
 .about-me,
 .info-content {
   z-index: 2;
