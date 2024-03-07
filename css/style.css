@@ -74,6 +74,7 @@ body::before {
   width: 100%; /* Set width to 100% to make it fill the entire width of its parent */
   margin: 0; /* Remove margin */
   max-width: none; /* Disable maximum width */
+  z-index: 1;
 }
 
 .home-page h1 {
