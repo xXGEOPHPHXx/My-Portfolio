@@ -142,3 +142,21 @@ body {
 .form {
    z-index: 2;
 }
+/*unsure*/
+
+.about-me h1,
+.info-content h2,
+.contact-page label,
+.contact-page input,
+.contact-page select,
+.contact-page textarea,
+.contact-page input[type="submit"] {
+  font-size: 4vh; /* Set the font size relative to viewport height */
+}
+
+.about-me,
+.info-content,
+.contact-page form {
+  font-size: 2vh; /* Set the font size relative to viewport height */
+}
+
