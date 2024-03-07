@@ -70,6 +70,7 @@ body {
   text-align: center;
   color: #fff;
   position: relative; /* Added */
+  z-index: 1; /* Ensure the z-index is added */
 }
 
 .container {
