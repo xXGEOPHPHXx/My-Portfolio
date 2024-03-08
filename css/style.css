@@ -160,6 +160,7 @@ body {
 @media screen and (min-width: 768px) {
   .info-content h2 {
     font-size: 6rem; /* Adjust font size as needed for larger screens */
+    text-align: center; /* Center text within the container */
   }
 }
 
