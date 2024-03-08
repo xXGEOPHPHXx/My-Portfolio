@@ -111,7 +111,7 @@ body {
 
 /* Reduce width of .info-content to occupy a smaller portion of the viewport width */
 .info-content {
-  width: 80vw;
+  width: 80;
 }
 
 /* Adjust margins and paddings for .about-me and .info-content */
