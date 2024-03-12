@@ -153,6 +153,9 @@ body {
 .contact-info {
   width: 30%; /* Adjust width as needed */
   margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
 }
 
 .form {
