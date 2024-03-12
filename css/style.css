@@ -148,19 +148,19 @@ body {
 }
 
 .contact-content {
-  width: 30%; /* Adjust width as needed */
+  width: 80%; /* Adjust width as needed */
 
 .contact-info {
   width: 30%; /* Adjust width as needed */
   margin-top: 20px;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   text-align: start;
 }
 
 .form {
    z-index: 2;
-   width: 80%; /* Adjust width as needed */
+   width: 30%; /* Adjust width as needed */
 }
 
 /* Media Query for Larger Screens */
