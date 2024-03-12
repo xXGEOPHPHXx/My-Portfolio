@@ -147,8 +147,11 @@ body {
   padding: 20px;
 }
 
+.contact-content {
+  width: 65%; /* Adjust width as needed */
+
 .contact-info {
-  width: 30%;
+  width: 30%; /* Adjust width as needed */
   margin-top: 20px;
 }
 
