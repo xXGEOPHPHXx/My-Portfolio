@@ -145,6 +145,8 @@ body {
   display: flex;
   justify-content: flex-start;
   padding: 20px;
+  z-index: 2;
+  color: #a199a7;
 }
 
 .contact-content {
