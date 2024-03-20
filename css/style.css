@@ -174,7 +174,7 @@ body {
 /* Media Query for Smaller Screens */
 @media screen and (max-width: 767px) {
   .about-me h1 {
-    font-size: 4rem; /* Adjust font size as needed for smaller screens */
+    font-size: 2rem; /* Adjust font size as needed for smaller screens */
   }
 }
 
