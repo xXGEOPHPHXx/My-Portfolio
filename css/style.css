@@ -130,6 +130,7 @@ body {
 /* Optionally adjust the font size of headings for better readability on desktop */
 .about-me h1 {
   font-size: 6rem;
+  text-shadow: -5px 2px 3px #000;
 }
 
 .info-content h2 {
