@@ -143,7 +143,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 20px;
 }
 
