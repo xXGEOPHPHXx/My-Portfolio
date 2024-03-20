@@ -140,24 +140,24 @@ body {
 }
 
 .contact-page {
-    background-image: url('../images/Background.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
-    z-index: 2;
-    color: #a199a7;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100vw;
+  background-image: url('../images/Background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  z-index: 2;
+  color: #a199a7;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100vw;
 }
-
 
 .contact-content {
   width: 50vw; /* Adjust width as needed */
-  
+}
+
 .contact-info {
   width: 30%; /* Adjust width as needed */
   margin-top: 20px;
@@ -167,8 +167,8 @@ body {
 }
 
 .form {
-   z-index: 2;
-   width: 30%; /* Adjust width as needed */
+  z-index: 2;
+  width: 30%; /* Adjust width as needed */
 }
 
 /* Media Query for Smaller Screens */
@@ -177,7 +177,6 @@ body {
     font-size: 2rem; /* Adjust font size as needed for smaller screens */
   }
 }
-
 
 @media screen and (min-width: 768px) {
   .info-content h2 {
