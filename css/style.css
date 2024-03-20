@@ -136,18 +136,21 @@ body {
   font-size: 2rem;
 }
 
-/* Contact Page*/
 .contact-page {
-  background-image: url('../images/Background.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-  z-index: 2;
-  color: #a199a7;
+    background-image: url('../images/Background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    z-index: 2;
+    color: #a199a7;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100vw;
 }
+
 
 .contact-content {
   width: 50vw; /* Adjust width as needed */
