@@ -170,12 +170,13 @@ body {
    width: 30%; /* Adjust width as needed */
 }
 
-/* Media Query for Larger Screens */
-@media screen and (min-width: 768px) {
+/* Media Query for Smaller Screens */
+@media screen and (max-width: 767px) {
   .about-me h1 {
-    font-size: 6rem;
+    font-size: 4rem; /* Adjust font size as needed for smaller screens */
   }
 }
+
 
 @media screen and (min-width: 768px) {
   .info-content h2 {
