@@ -141,19 +141,20 @@ body {
   font-size: 3rem;
 }
 
+
 .contact-page {
-  background-image: url('../images/Background.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 20px;
-  z-index: 2;
-  color: #a199a7;
-  flex-wrap: wrap;
-  flex-direction: row;
-  width: 100vw;
+    background-image: url('../images/Background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    z-index: 2;
+    color: #a199a7;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100vw;
 }
 
 .contact-content {
