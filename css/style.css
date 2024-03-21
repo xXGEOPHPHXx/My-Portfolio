@@ -179,13 +179,13 @@ body {
 /* Media Query for Smaller Screens */
 @media screen and (max-width: 767px) {
   .about-me h1 {
-    font-size: 2rem; /* Adjust font size as needed for smaller screens */
+    font-size: 3rem; /* Adjust font size as needed for smaller screens */
   }
 }
 
 @media screen and (min-width: 768px) {
   .info-content h2 {
-    font-size: 6rem;
+    font-size: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
