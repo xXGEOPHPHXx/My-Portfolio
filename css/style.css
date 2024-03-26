@@ -161,12 +161,16 @@ body {
 }
 
 .contact-info {
+  background-color: #a199a7;
+  padding: 20px;
+  z-index: 1;
+}
+
+.contact-info {
   margin-top: 20px;
   justify-content: left;
   align-items: left;
   text-align: start;
-  background-color: #a199a7;
-  padding: 20px;
   margin-bottom: 20px;
   z-index: 2;
 }
