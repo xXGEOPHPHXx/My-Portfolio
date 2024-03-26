@@ -150,7 +150,7 @@ body {
     justify-content: center;
     padding: 20px;
     z-index: 2;
-    color: #a199a7;
+    color: white;
     width: 100vw;
     margin: 0 auto; /* Center content horizontally */
 }
@@ -183,7 +183,7 @@ body {
 }
 
 .form {
-    background-color: #a199a7;
+  background-color: #a199a7;
   padding: 20px;
   z-index: 1;
 }
