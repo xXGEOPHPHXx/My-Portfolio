@@ -3,7 +3,7 @@
   background-color: rgba(0, 0, 0, 1);
   padding: 10px 0;
   width: 100vw;
-  z-index: 2; /* Adjusted z-index */
+  z-index: 1000;
   transition: background-color 0.3s ease;
   position: fixed;
 }
@@ -138,7 +138,7 @@ body {
 
 .info-content h2 {
   text-shadow: -5px 2px 3px #000;
-  font-size: 3rem; /* Adjusted font size */
+  font-size: 3rem;
 }
 
 .contact-page {
@@ -150,35 +150,32 @@ body {
     justify-content: center;
     padding: 20px;
     z-index: 2;
-    color: white;
+    color: #a199a7;
+    flex-wrap: wrap;
+    flex-direction: row;
     width: 100vw;
-    margin: 0 auto; /* Center content horizontally */
-    text-shadow: -5px 2px 3px #000;
 }
 
 .contact-content {
-  width: 50vw;
+  width: 50vw; /* Adjust width as needed */
   z-index: 2;
 }
 
-
 .contact-info {
+  width: 30%; /* Adjust width as needed */
   margin-top: 20px;
   justify-content: left;
   align-items: left;
   text-align: start;
-  margin-bottom: 20px;
   z-index: 2;
-  color: white;
-  text-shadow: -5px 2px 3px #000;
 }
 
 .form {
-  width: 30%;
+  z-index: 2;
+  width: 30%; /* Adjust width as needed */
   z-index: 2;
 }
 
-}
 /* Media Query for Smaller Screens */
 @media screen and (max-width: 767px) {
   .about-me h1 {
@@ -188,35 +185,3 @@ body {
 
 @media screen and (min-width: 768px) {
   .info-content h2 {
-    font-size: 6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .info-section {
-    justify-content: center;
-  }
-}
-
-
-.audio-video-section {
-  margin-top: 40px; /* Adjust margin as needed */
-  display: flex;
-  justify-content: space-between;
-}
-
-.audio-video-sample {
-  width: calc(33.33% - 20px); /* Adjust width as needed */
-  border: 2px solid #ccc; /* Example border style */
-  padding: 10px; /* Example padding */
-  text-align: center;
-}
-
-.audio-video-sample audio,
-.audio-video-sample video {
-  max-width: 100%; /* Ensure the audio/video player fits within its container */
-  height: auto;
-}
