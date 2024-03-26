@@ -200,3 +200,23 @@ body {
     justify-content: center;
   }
 }
+
+
+.audio-video-section {
+  margin-top: 40px; /* Adjust margin as needed */
+  display: flex;
+  justify-content: space-between;
+}
+
+.audio-video-sample {
+  width: calc(33.33% - 20px); /* Adjust width as needed */
+  border: 2px solid #ccc; /* Example border style */
+  padding: 10px; /* Example padding */
+  text-align: center;
+}
+
+.audio-video-sample audio,
+.audio-video-sample video {
+  max-width: 100%; /* Ensure the audio/video player fits within its container */
+  height: auto;
+}
