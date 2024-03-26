@@ -153,6 +153,13 @@ body {
     color: white;
     width: 100vw;
     margin: 0 auto; /* Center content horizontally */
+    text-shadow: -5px 2px 3px #000;
+}
+
+.contact-page {
+  background-color: #a199a7;
+  padding: 20px;
+  z-index: 1;
 }
 
 .contact-content {
@@ -182,10 +189,6 @@ body {
   z-index: 2;
 }
 
-.form {
-  background-color: #a199a7;
-  padding: 20px;
-  z-index: 1;
 }
 /* Media Query for Smaller Screens */
 @media screen and (max-width: 767px) {
