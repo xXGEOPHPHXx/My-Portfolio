@@ -129,11 +129,15 @@ body {
 /* About Me Section Styles */
 .about-me {
   background-color: #a199a7;
- /* padding: 20px; */
+  padding: 2em; /* Adjust padding with em to scale with text size */
   margin-bottom: 20px;
   z-index: 2;
   font-size: 1rem; /* Default font size */
   text-align: center;
+  background-image: url('../images/Background.jpg');
+  background-size: calc(100% + 2em) calc(100% + 2em); /* Adjust background size with em */
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Default font size for h1 */
@@ -146,6 +150,8 @@ body {
 @media screen and (max-width: 767px) {
   .about-me {
     font-size: 0.8rem; /* Smaller font size for smaller screens */
+    padding: 1.5em; /* Adjust padding with em to scale with text size */
+    background-size: calc(100% + 1.5em) calc(100% + 1.5em); /* Adjust background size with em */
   }
 
   .about-me h1 {
@@ -157,6 +163,8 @@ body {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .about-me {
     font-size: 1.2rem; /* Larger font size for medium screens */
+    padding: 2.5em; /* Adjust padding with em to scale with text size */
+    background-size: calc(100% + 2.5em) calc(100% + 2.5em); /* Adjust background size with em */
   }
 
   .about-me h1 {
@@ -168,6 +176,8 @@ body {
 @media screen and (min-width: 1024px) {
   .about-me {
     font-size: 1.5rem; /* Larger font size for large screens */
+    padding: 3em; /* Adjust padding with em to scale with text size */
+    background-size: calc(100% + 3em) calc(100% + 3em); /* Adjust background size with em */
   }
 
   .about-me h1 {
