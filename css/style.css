@@ -118,7 +118,8 @@ body {
   width: 80;
   z-index: 2;
   background-color: #a199a7;
-  /* padding: 20px; */
+  padding: 20px;
+  display: inline-block; /* Make the width adjust with the content */
 }
 
 .info-content h2 {
@@ -129,11 +130,12 @@ body {
 /* About Me Section Styles */
 .about-me {
   background-color: #a199a7;
- /* padding: 20px; */
+  padding: 20px;
   margin-bottom: 20px;
   z-index: 2;
   font-size: 1rem; /* Default font size */
   text-align: center;
+  display: inline-block; /* Make the width adjust with the content */
 }
 
 /* Default font size for h1 */
