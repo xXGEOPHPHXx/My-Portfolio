@@ -57,20 +57,20 @@ body {
 
 /* Home Page Styles */
 .home-page {
-    background-image: url('../images/Background.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    min-height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-    position: relative;
-    z-index: 1;
-    flex-direction: column;
-    justify-content: flex-start;
+  background-image: url('../images/Background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .container {
@@ -126,42 +126,77 @@ body {
   font-size: 3rem; /* Adjusted font size */
 }
 
-/* Adjust margins and paddings for .about-me and .info-content */
+/* About Me Section Styles */
 .about-me {
   background-color: #a199a7;
   padding: 20px;
   margin-bottom: 20px;
   z-index: 2;
+  font-size: 1rem; /* Default font size */
 }
 
-/* Optionally adjust the font size of headings for better readability on desktop */
+/* Default font size for h1 */
 .about-me h1 {
   font-size: 6rem;
   text-shadow: -5px 2px 3px #000;
 }
 
+/* Media Query for Smaller Screens */
+@media screen and (max-width: 767px) {
+  .about-me {
+    background-color: #8b7d93; /* Different background color for smaller screens */
+    font-size: 0.8rem; /* Smaller font size for smaller screens */
+  }
 
+  .about-me h1 {
+    font-size: 3rem; /* Adjust font size as needed for smaller screens */
+  }
+}
 
+/* Media Query for Medium Screens */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .about-me {
+    background-color: #a199a7; /* Different background color for medium screens */
+    font-size: 1.2rem; /* Larger font size for medium screens */
+  }
+
+  .about-me h1 {
+    font-size: 4rem; /* Adjust font size as needed for medium screens */
+  }
+}
+
+/* Media Query for Large Screens */
+@media screen and (min-width: 1024px) {
+  .about-me {
+    background-color: #715a77; /* Different background color for large screens */
+    font-size: 1.5rem; /* Larger font size for large screens */
+  }
+
+  .about-me h1 {
+    font-size: 5rem; /* Adjust font size as needed for large screens */
+  }
+}
+
+/* Contact Page */
 .contact-page {
-    background-image: url('../images/Background.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    z-index: 2;
-    color: white;
-    width: 100vw;
-    margin: 0 auto; /* Center content horizontally */
-    text-shadow: -5px 2px 3px #000;
+  background-image: url('../images/Background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  z-index: 2;
+  color: white;
+  width: 100vw;
+  margin: 0 auto; /* Center content horizontally */
+  text-shadow: -5px 2px 3px #000;
 }
 
 .contact-content {
   width: 50vw;
   z-index: 2;
 }
-
 
 .contact-info {
   margin-top: 20px;
@@ -179,7 +214,6 @@ body {
   z-index: 2;
 }
 
-}
 /* Media Query for Smaller Screens */
 @media screen and (max-width: 767px) {
   .about-me h1 {
@@ -201,7 +235,6 @@ body {
     justify-content: center;
   }
 }
-
 
 .audio-video-section {
   margin-top: 40px; /* Adjust margin as needed */
