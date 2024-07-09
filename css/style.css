@@ -61,7 +61,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -105,11 +105,12 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   flex-direction: column;
   position: relative;
   z-index: 2;
+  overflow: auto;
 }
 
 /* Reduce width of .info-content to occupy a smaller portion of the viewport width */
