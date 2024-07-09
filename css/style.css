@@ -146,7 +146,6 @@ body {
 /* Media Query for Smaller Screens */
 @media screen and (max-width: 767px) {
   .about-me {
-    background-color: #8b7d93; /* Different background color for smaller screens */
     font-size: 0.8rem; /* Smaller font size for smaller screens */
   }
 
@@ -158,7 +157,6 @@ body {
 /* Media Query for Medium Screens */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .about-me {
-    background-color: #a199a7; /* Different background color for medium screens */
     font-size: 1.2rem; /* Larger font size for medium screens */
   }
 
@@ -170,7 +168,6 @@ body {
 /* Media Query for Large Screens */
 @media screen and (min-width: 1024px) {
   .about-me {
-    background-color: #715a77; /* Different background color for large screens */
     font-size: 1.5rem; /* Larger font size for large screens */
   }
 
