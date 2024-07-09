@@ -38,7 +38,7 @@
   text-decoration: underline;
 }
 
-/* translucent film over background image */
+/* Translucent film over background image */
 body::before {
   content: "";
   position: fixed;
@@ -50,27 +50,27 @@ body::before {
   z-index: 1;
 }
 
-/*fix white bar on smaller screen sizes */
+/* Fix white bar on smaller screen sizes */
 body {
   overflow-x: hidden;
 }
 
 /* Home Page Styles */
 .home-page {
-    background-image: url('../images/Background.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-    position: relative;
-    z-index: 1;
-    flex-direction: column;
-    justify-content: flex-start;
+  background-image: url('../images/Background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh; /* Use min-height instead of height */
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .container {
@@ -99,23 +99,30 @@ body {
   justify-content: center;
   align-items: center;
   text-align: start;
-  align-items: flex-start;
   color: #fff;
   background-image: url('../images/Background.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  height: 100vh;
+  min-height: 100vh; /* Use min-height instead of height */
   width: 100vw;
   flex-direction: column;
   position: relative;
   z-index: 2;
+  overflow: auto; /* Ensure content is scrollable if necessary */
 }
 
 /* Reduce width of .info-content to occupy a smaller portion of the viewport width */
 .info-content {
-  width: 80;
+  width: 80%;
   z-index: 2;
+  background-color: #a199a7;
+  padding: 20px;
+}
+
+.info-content h2 {
+  text-shadow: -5px 2px 3px #000;
+  font-size: 3rem; /* Adjusted font size */
 }
 
 /* Adjust margins and paddings for .about-me and .info-content */
@@ -126,42 +133,31 @@ body {
   z-index: 2;
 }
 
-.info-content {
-  background-color: #a199a7;
-  padding: 20px;
-}
-
-/* Optionally adjust the font size of headings for better readability on desktop */
 .about-me h1 {
   font-size: 6rem;
   text-shadow: -5px 2px 3px #000;
 }
 
-.info-content h2 {
-  text-shadow: -5px 2px 3px #000;
-  font-size: 3rem; /* Adjusted font size */
-}
-
+/* Contact Page */
 .contact-page {
-    background-image: url('../images/Background.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    z-index: 2;
-    color: white;
-    width: 100vw;
-    margin: 0 auto; /* Center content horizontally */
-    text-shadow: -5px 2px 3px #000;
+  background-image: url('../images/Background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  z-index: 2;
+  color: white;
+  width: 100vw;
+  margin: 0 auto; /* Center content horizontally */
+  text-shadow: -5px 2px 3px #000;
 }
 
 .contact-content {
   width: 50vw;
   z-index: 2;
 }
-
 
 .contact-info {
   margin-top: 20px;
@@ -179,11 +175,14 @@ body {
   z-index: 2;
 }
 
-}
 /* Media Query for Smaller Screens */
 @media screen and (max-width: 767px) {
   .about-me h1 {
     font-size: 3rem; /* Adjust font size as needed for smaller screens */
+  }
+
+  .info-section {
+    justify-content: center;
   }
 }
 
@@ -195,13 +194,6 @@ body {
     align-items: center;
   }
 }
-
-@media screen and (max-width: 767px) {
-  .info-section {
-    justify-content: center;
-  }
-}
-
 
 .audio-video-section {
   margin-top: 40px; /* Adjust margin as needed */
